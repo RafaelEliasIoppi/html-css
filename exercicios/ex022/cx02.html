@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #DAF0F2;
+        }
+        #site{
+            text-align: center;
+        }
+        header{
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.76);
+        }
+        nav{
+            background-color: rgb(109, 105, 105);
+            padding: 3px;
+            box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.76);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        footer{
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 4px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459);                
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color:red;
+        }
+
+        article{
+            background-color: rgb(170, 182, 185);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(114, 121, 122) ;
+            padding: 1px;
+        }
+        footer > p{
+            margin: 0px;
+
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color:rgb(37, 31, 31);
+            margin:10px auto;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 id="site">Meu site</h1>
+    <nav>
+        <a href="">link </a>
+        <a href="">link </a>
+        <a href="">link </a>
+        <a href="">link </a>
+        <a href="">link </a>
+    </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Esportes</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, quibusdam! Libero, eius alias tenetur omnis recusandae at itaque reprehenderit. Asperiores porro nostrum dolorem harum neque quo excepturi, corrupti sed ex!</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Nóticias sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nam ex, deleniti esse facere rem perferendis animi officia magni, minima culpa quod quasi autem quibusdam explicabo est. Tempore, nihil consectetur.</p>
+                <aside>
+                    <p>Artigo Escrito por George Lucas</p>
+                </aside>
+            </article>
+        </section>
+        <section>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Rafael</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

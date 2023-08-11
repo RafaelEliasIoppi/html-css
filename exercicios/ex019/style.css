@@ -1,0 +1,37 @@
+@charset "UFT-8";
+
+body{
+    background-image: linear-gradient(to right,hsla(173, 85%, 69%, 0.781),#025959);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:#D1645D;
+}
+/* em HTML é id em CSS é # 
+   em HTML é class em CSS é .
+   */
+h1#principal{    
+    text-align: center;
+    background-color:  #d1655dab;
+    color:black;
+  
+}
+h2{
+    color:#025959;
+    font-weight: bold;
+}
+.basico{
+    color:black;
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(141, 141, 13);
+    font-weight: bold;
+}
+.avançado{
+    color:rgb(99, 33, 33);
+    font-weight: bold;
+}
+.destaque{
+    background-color: rgba(240, 240, 18, 0.74);
+}

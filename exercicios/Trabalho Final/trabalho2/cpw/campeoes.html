@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeões do Futebol Gaúcho</title>
+    <link rel="shortcut icon" href="imagens/bola-de-futebol.png" type="image/x-icon">
+    <style>
+        @font-face {
+        font-family: Android;
+        src: url('../fontes/idroid.otf');
+}
+:root {
+    --fonteandroid:'Android', cursive;
+} 
+ body{
+            background-color: #CFEEE7;;
+            box-sizing: border-box;
+        }
+ h1 {
+    color: var(--cor5);
+    font-family: var(--fonteandroid);
+    font-size: 2em;
+    background-image: linear-gradient(to right, #69B8A5, #063D1e);
+    text-align: center;
+
+}
+h3 {
+    font-size: 2em;
+    background-image: linear-gradient(to right, #86EBD3,transparent);
+    margin: 0;
+    
+
+}
+    
+
+
+        hgroup{
+            min-width: 300px;
+            max-width: 1000px;
+            background-color: white;
+            margin: auto;
+            margin-bottom: 30px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.76);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        th {
+    border: 2px solid black;
+
+}
+td {
+    background-color: antiquewhite;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid black
+    
+}
+
+table{
+    text-align: center;
+}
+#clubes{
+    margin: auto;
+    margin-top: 20px;
+}
+
+#tabela1{
+    margin-bottom: 30px;
+}
+    </style>
+</head>
+
+<body>
+    
+        <h1>Lista de Campeões do Rio Grande do Sul</h1>
+        <table id="tabela1">
+            <tr>
+            <th>Ano</th>
+            <th>Campeão</th>
+            <th>Cidade</th>
+            </tr>     
+
+            <tr>
+                <td>1919</td>
+                <td>GE Brasil</td>
+                <td>Pelotas</td>
+            </tr>
+            <tr>
+                <td>1920</td>
+                <td>Guarany FC</td>
+                <td>Bagé</td>
+            </tr>
+            <tr>
+                <td>1921</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1922</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1925</td>
+                <td>GE Bagé</td>
+                <td>Bagé</td>
+            </tr>
+            <tr>
+                <td>1926</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1927</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1928</td>
+                <td>SC Americano</td>
+                <td>Porto Alegre</td>
+            </tr> 
+            <tr>
+                <td>1929</td>
+                <td>EC Cruzeiro</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1930</td>
+                <td>EC Pelotas</td>
+                <td>Pelotas</td>
+            </tr>
+            <tr>
+                <td>1931</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1932</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1933</td>
+                <td>SC São Paulo</td>
+                <td>Rio Grande</td>
+            </tr>
+            <tr>
+                <td>1934</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1935</td>
+                <td>9º Regimento de Infantaria (GA Farroupilha)</td>
+                <td>Pelotas</td>
+            </tr>
+            <tr>
+                <td>1936</td>
+                <td>SC Rio Grande</td>
+                <td>Rio Grande</td>
+            </tr>
+            <tr>
+                <td>1937</td>
+                <td>Grêmio FB Santanense</td>
+                <td>Santana do Livramento</td>
+            </tr>
+            <tr>
+                <td>1938</td>
+                <td>Guarany FC</td>
+                <td>Bagé</td>
+            </tr>
+            <tr>
+                <td>1939</td>
+                <td>FC Riograndense</td>
+                <td>Rio Grande</td>
+            </tr>
+            <tr>
+                <td>1940</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1941</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1942</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1943</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1944</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1945</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1946</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1947</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1948</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1949</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1950</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1951</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1952</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1953</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1954</td>
+                <td>GE Renner</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1955</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1956</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1957</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1958</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1959</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1960</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1961</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1962</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1963</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1964</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1965</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1966</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1967</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1968</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1969</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1970</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1971</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1972</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1973</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1974</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1975</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1976</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1977</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1978</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1979</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1980</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1981</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1982</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1983</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1984</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1985</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1986</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1987</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1988</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1989</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1990</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1991</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1992</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1993</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1994</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1995</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1996</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1997</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>1998</td>
+                <td>EC Juventude</td>
+                <td>Caxias do Sul</td>
+            </tr>
+            <tr>
+                <td>1999</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>SER Caxias do Sul</td>
+                <td>Caxias do Sul</td>
+            </tr>
+            <tr>
+                <td>2001</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2003</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2004</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2005</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2006</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2007</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2008</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2009</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2011</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2013</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>SC Internacional</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>EC Novo Hamburgo</td>
+                <td>Novo Hamburgo</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Grêmio FBPA</td>
+                <td>Porto Alegre</td>
+            </tr>
+            </table>
+       
+
+
+    
+        <h3>Títulos por Clube</h3>
+            <table>
+            <tr>  
+                <td></td>
+                <td>Clube</td>
+                <td>Títulos</td>
+                <td>Edições</td>
+            </tr>         
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/inter.png" alt="Inter"></td>
+                <td>SC Internacional</td>
+                    <td>45</td>
+                    <td>1927, 1934, 1940, 1941, 1942, 1943, 1944, 1945, 1947, 1948, 1950, 1951, 1952, 1953, 1955, 1961, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1978, 1981, 1982, 1983, 1984, 1991, 1992, 1994, 1997, 2002, 2003, 2004, 2005, 2008, 2009, 2011, 2012, 2013, 2014, 2015 e 2016</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/gremio400.png" alt="Grêmio"></td>
+                    <td>Grêmio FBPA</td>
+                    <td>42</td>
+                    <td>1921, 1922, 1926, 1931, 1932, 1946, 1949, 1956, 1957, 1958, 1959, 1960, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1977, 1979, 1980, 1985, 1986, 1987, 1988, 1989, 1990, 1993, 1995, 1996, 1999, 2001, 2006, 2007, 2010, 2018, 2019, 2020, 2021, 2022 e 2023</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zguarany400.png" alt="Guarany"></td>
+                    <td>Guarany FC</td>
+                    <td>2</td>
+                    <td>1920 e 1938</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/juventude400.png" alt="Juventude"></td>
+                    <td>EC Juventude</td>
+                    <td>1</td>
+                    <td>1998</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/Brasil400.png" alt="Brasil de Pelotas"></td>
+                    <td>GE Brasil</td>
+                    <td>1</td>
+                    <td>1919</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zbage400.png" alt="Bagé"></td>
+                    <td>GE Bagé</td>
+                    <td>1</td>
+                    <td>1925</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zpelotas400.png" alt="Pelotas"></td>
+                <td>EC Pelotas</td>
+                    <td>1</td>
+                    <td>1930</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/novohamburgo400.png" alt="Novo Hamburgo"></td>
+                    <td>EC Novo Hamburgo</td>
+                    <td>1</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/Caxias400.png" alt="Caxias"></td>
+                <td>SER Caxias do Sul</td>
+                    <td>1</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zriograndense400.png" alt="Rio Grandense"></td>
+                <td>FC Riograndense</td>
+                    <td>1</td>
+                    <td>1939</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zfarroupilha400.png" alt="Farroupilha"></td>
+                    <td>GA Farroupilha</td>
+                    <td>1</td>
+                    <td>1935</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zsantanense400.png" alt="Santanense"></td>
+                    <td>Grêmio FB Santanense</td>
+                    <td>1</td>
+                    <td>1937</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zriogrande400.png" alt="Rio Grande"></td>
+                    <td>SC Rio Grande</td>
+                    <td>1</td>
+                    <td>1936</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zamericano400.png" alt="Americano"></td>
+                    <td>SC Americano</td>
+                    <td>1</td>
+                    <td>1928</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zcruzeiro400.png" alt="Cruzeiro"></td>
+                    <td>EC Cruzeiro</td>
+                    <td>1</td>
+                    <td>1929</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zsaopaulo400.png" alt="São Paulo"></td>
+                    <td>SC São Paulo</td>
+                    <td>1</td>
+                    <td>1933</td>
+                </tr>
+                <tr>
+                    <td><img width="60" height="60"
+                        src="imagens/logo/zrenner400.png" alt="Renner"></td>
+                    <td>GE Renner</td>
+                    <td>1</td>
+                    <td>1954</td>
+                </tr>
+                </table>
+    
+
+   
+        <h3>Títulos por Cidade</h3>
+            <table id="clubes">
+            <tr>  
+                <td>Bandeira</td>
+                <td>Cidade</td>
+                <td>Títulos</td>
+            </tr>  
+                <tr>
+                    <td><img width="100" height="60"
+                        src="imagens/logo/zzpoa.png" alt="Bandeira"></td>
+                <td>Porto Alegre</td>
+                <td>90</td>
+                </tr>
+                <tr>
+                <td><img width="100" height="60"
+                        src="imagens/logo/zzpelotas.png" alt="Bandeira"></td>
+                <td>Pelotas</td>
+                <td>3</td>
+                </tr>
+                <tr>
+                    <td><img width="100" height="60"
+                        src="imagens/logo/zzbage.png" alt="Bandeira"></td>
+                <td>Bagé</td>
+                <td>3</td>
+                </tr>
+                <tr>
+                    <td><img width="100" height="60"
+                        src="imagens/logo/zzriogrande.png" alt="Bandeira"></td>
+                <td>Rio Grande</td>
+                <td>3</td>
+                </tr>
+                <tr>
+                    <td><img width="100" height="60"
+                        src="imagens/logo/zzcaxias.png" alt="Bandeira"></td>
+                <td>Caxias do Sul</td>
+                <td>2</td>
+                </tr>
+                <tr>
+                    <td><img width="100" height="60"
+                        src="imagens/logo/zznh.png" alt="Bandeira"></td>
+                <td>Novo Hamburgo</td>
+                <td>1</td>
+                </tr>
+                <tr>
+                    <td><img width="100" height="60"
+                        src="imagens/logo/zzlivramento.png" alt="Bandeira"></td>
+                <td>Santana do Livramento</td>
+                <td>1</td>
+                </tr>
+            </table>
+    
+</body>
+
+</html>
